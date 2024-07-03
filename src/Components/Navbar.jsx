@@ -58,7 +58,7 @@ const Navbar = () => {
         <a className="flex space-x-2 items-center border-2 px-4 py-2 border-[#343268]  rounded-xl">
           <span className="font-inter  text-[#020043] font-medium">
             Appointment
-          </span>{" "}
+          </span>
           <span>
             <GoArrowUpRight size={25} />
           </span>

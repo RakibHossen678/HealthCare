@@ -1,4 +1,5 @@
 import "./App.css";
+import Banner from "./Components/Banner";
 import Navbar from "./Components/Navbar";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="">
       <div className="lg:w-9/12  mx-auto">
         <Navbar></Navbar>
+        <Banner></Banner>
       </div>
     </div>
   );
