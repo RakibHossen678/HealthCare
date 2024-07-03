@@ -1,4 +1,5 @@
 import "./App.css";
+import Accordion from "./Components/Accordion";
 import Banner from "./Components/Banner";
 import Care from "./Components/Care";
 import Empower from "./Components/Empower";
@@ -16,6 +17,7 @@ function App() {
         <Mission></Mission>
         <Empower></Empower>
         <Testimonial></Testimonial>
+        <Accordion></Accordion>
       </div>
     </div>
   );
