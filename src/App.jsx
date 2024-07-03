@@ -1,6 +1,7 @@
 import "./App.css";
 import Banner from "./Components/Banner";
 import Care from "./Components/Care";
+import Empower from "./Components/Empower";
 import Mission from "./Components/Mission";
 import Navbar from "./Components/Navbar";
 
@@ -12,6 +13,7 @@ function App() {
         <Banner></Banner>
         <Care></Care>
         <Mission></Mission>
+        <Empower></Empower>
       </div>
     </div>
   );
