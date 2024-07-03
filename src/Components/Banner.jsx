@@ -3,7 +3,7 @@ const Banner = () => {
   return (
     <div className="relative mt-14  overflow-hidden">
       <img
-        className="rounded-xl "
+        className="lg:rounded-xl "
         src={banner}
         alt="Banner"
       />
