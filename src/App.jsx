@@ -1,5 +1,6 @@
 import "./App.css";
 import Accordion from "./Components/Accordion";
+import Advertisement from "./Components/Advertisement";
 import Banner from "./Components/Banner";
 import Care from "./Components/Care";
 import Empower from "./Components/Empower";
@@ -18,6 +19,7 @@ function App() {
         <Empower></Empower>
         <Testimonial></Testimonial>
         <Accordion></Accordion>
+        <Advertisement></Advertisement>
       </div>
     </div>
   );
