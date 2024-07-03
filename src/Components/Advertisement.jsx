@@ -6,7 +6,7 @@ const Advertisement = () => {
   return (
     <div className="relative my-20 mx-2 lg:mx-0 overflow-hidden">
       <img className=" rounded-3xl" src={img1} alt="img" />
-      <div className="absolute inset-0 bg-gradient-to-r from-[#020043] to-[#020043] opacity-70 rounded-3xl flex flex-col justify-center lg:pl-16 pl-5 t">
+      <div className="absolute inset-0 bg-gradient-to-r from-[#020043] to-[#020043] opacity-70 rounded-3xl flex flex-col justify-center lg:pl-16 pl-5 ">
         <h1 className="text-[#FFFFF5] ext-2xl lg:text-5xl font-semibold leading-normal">
           Get Your <br /> First Appointment <br /> at 50% Off!
         </h1>

@@ -11,7 +11,7 @@ import Testimonial from "./Components/Testimonial";
 
 function App() {
   return (
-    <div className="font-inter">
+    <div className="font-inter bg-gradient-to-b from-[#c1d5deb4] to-[#FBFBFB]">
       <div className="lg:w-9/12  mx-auto">
         <Navbar></Navbar>
         <Banner></Banner>
