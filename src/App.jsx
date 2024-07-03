@@ -4,6 +4,7 @@ import Advertisement from "./Components/Advertisement";
 import Banner from "./Components/Banner";
 import Care from "./Components/Care";
 import Empower from "./Components/Empower";
+import Footer from "./Components/Footer";
 import Mission from "./Components/Mission";
 import Navbar from "./Components/Navbar";
 import Testimonial from "./Components/Testimonial";
@@ -20,7 +21,9 @@ function App() {
         <Testimonial></Testimonial>
         <Accordion></Accordion>
         <Advertisement></Advertisement>
+        
       </div>
+      <Footer></Footer>
     </div>
   );
 }

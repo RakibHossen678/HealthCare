@@ -38,7 +38,7 @@ const Accordion = () => {
     setIsAccordingOpen((prevIndex) => (prevIndex === index ? null : index));
 
   return (
-    <div className="my-20">
+    <div className="my-20 p-6 lg:p-0">
       <div>
         <button className="border-2 border-[#020043] text-[#020043] px-5 py-1 mb-3 rounded-full">
           Faq
