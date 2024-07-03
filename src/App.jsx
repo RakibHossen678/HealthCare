@@ -1,6 +1,7 @@
 import "./App.css";
 import Banner from "./Components/Banner";
 import Care from "./Components/Care";
+import Mission from "./Components/Mission";
 import Navbar from "./Components/Navbar";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Navbar></Navbar>
         <Banner></Banner>
         <Care></Care>
+        <Mission></Mission>
       </div>
     </div>
   );

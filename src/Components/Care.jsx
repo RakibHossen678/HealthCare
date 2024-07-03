@@ -10,8 +10,8 @@ import camera from "../assets/icons8-camera-48.png";
 import comment from "../assets/icons8-comment-96.png";
 const Care = () => {
   return (
-    <div className="flex gap-6 mt-24 mb-20">
-      <div className="h-[300px] w-[210px] bg-[#FBFBFB] rounded-xl  shadow-xl p-5">
+    <div className="flex flex-col lg:flex-row gap-6 mt-24 mb-20 p-5 lg:p-0">
+      <div className="h-[300px] lg:w-[210px] bg-[#FBFBFB] rounded-xl  shadow-xl p-5">
         <h1 className="text-[#020043] font-semibold text-4xl pb-2 font-inter">
           90%
         </h1>
@@ -22,12 +22,12 @@ const Care = () => {
       </div>
       <div>
         <div>
-          <h1 className="text-5xl font-semibold text-center pb-4 items-center">
+          <h1 className="lg:text-5xl text-2xl font-semibold text-center pb-4 items-center">
             Comprehensive Care <br /> for Every Patient
           </h1>
         </div>
-        <div className="flex items-end gap-5 ">
-          <div className="h-[180px] shadow-lg rounded-xl p-5 w-[200px] bg-[#FFFFF5]">
+        <div className="flex flex-col lg:flex-row lg:items-end gap-5 ">
+          <div className="h-[180px] shadow-lg rounded-xl p-5 lg:w-[200px] bg-[#FFFFF5]">
             <h1 className="text-[#020043] font-semibold text-4xl font-inter pb-1">
               500+
             </h1>
@@ -39,7 +39,7 @@ const Care = () => {
               <img className="w-16 rotate-12" src={certificate} alt="" />
             </div>
           </div>
-          <div className="h-[150px] w-[200px] bg-[#FBFBFB] shadow-lg rounded-xl p-5">
+          <div className="h-[150px] lg:w-[200px] bg-[#FBFBFB] shadow-lg rounded-xl p-5">
             <div className="flex items-center space-x-3">
               <h1 className="text-[#020043] font-semibold text-4xl font-inter">
                 4.8
@@ -70,7 +70,7 @@ const Care = () => {
               />
             </div>
           </div>
-          <div className="h-[180px] shadow-lg rounded-xl p-5 w-[200px] bg-[#FFFFF5]">
+          <div className="h-[180px] shadow-lg rounded-xl p-5 lg:w-[200px] bg-[#FFFFF5]">
             <h1 className="text-[#020043] font-semibold text-4xl font-inter pb-1">
               $5000
             </h1>
@@ -85,13 +85,13 @@ const Care = () => {
           </div>
         </div>
       </div>
-      <div className="h-[300px] w-[210px] bg-[#FBFBFB] rounded-xl  shadow-xl p-5">
+      <div className="h-[300px] lg:w-[210px] bg-[#FBFBFB] rounded-xl  shadow-xl p-5">
         <h1 className="text-[#020043] font-semibold text-4xl pb-3 font-inter">
           50+
         </h1>
         <p className="text-sm pb-4">Free lession video for patient</p>
-        <div className="relative">
-          <img className="w-44" src={comment} alt="" />
+        <div className="relative ">
+          <img className="w-44 " src={comment} alt="" />
           <img
             className="absolute bottom-14 left-16 w-16"
             src={camera}
